@@ -14,7 +14,7 @@ using System.Threading;
 using OpenQA.Selenium.Safari;
 using System.Collections.Generic;
 using System.Web;
-String file = "myOutput.csv";
+String file = @"C:myOutput.csv";
 using (String csv = File.CreateText(file));
 namespace WebScraping
 {
